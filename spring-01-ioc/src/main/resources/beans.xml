@@ -6,4 +6,8 @@
     <bean id="hello" class="org.demo.pojo.Hello">
         <property name="src" value="Spring"/>
     </bean>
+
+    <bean id="user" class="org.demo.pojo.User">
+        <property name="name" value="Chase"/>
+    </bean>
 </beans>
