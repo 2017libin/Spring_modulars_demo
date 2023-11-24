@@ -7,7 +7,8 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!--    <context:annotation-config />-->
+<!--    貌似这句注释掉也没有报错？-->
+    <context:annotation-config />
     <!-- 指定要扫描的包，这个包下的注解就会生效！ -->
     <context:component-scan base-package="org.demo.pojo"/>
 </beans>
